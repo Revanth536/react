@@ -1,5 +1,6 @@
 
 import './App.css'
+import Cards from './Components/Cards'
 import ClassCom from './Components/ClassCom'
 import Functional from './Components/Function'
 
@@ -8,8 +9,15 @@ function App() {
 
   return (
     <>
-    <Functional />
-    <ClassCom/></>
+      <div style={{ display:"-webkit-flex", gap: "20px" }}>
+    {/* <Functional />
+      <ClassCom /> */}
+        <Cards />
+        <Cards />
+        <Cards />
+        <Cards/>
+      </div>
+    </>
   )
 }
 
